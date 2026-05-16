@@ -24,7 +24,7 @@ const fadeUp = {
     transition: {
       delay: i * 0.1,
       duration: 0.6,
-      ease: [0.25, 0.46, 0.45, 0.94],
+      ease: "easeOut",
     },
   }),
 };
@@ -306,7 +306,7 @@ function SkillBar({
           transition={{
             duration: 1,
             delay: 0.4 + index * 0.08,
-            ease: [0.25, 0.46, 0.45, 0.94],
+            ease: "easeOut",
           }}
         />
       </div>
